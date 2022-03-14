@@ -1,0 +1,5 @@
+tempatkan aplikasi yt music mu di folder ini, dengan path
+/data/adb/Music/base.apk
+
+chmod 644 /data/adb/Music/base.apk
+chown 1000:1000 /data/adb/Music/base.apk
