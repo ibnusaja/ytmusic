@@ -24,8 +24,6 @@ curl https://raw.githubusercontent.com/ibnusaja/ytmusic/main/data/adb/service.d/
 curl https://raw.githubusercontent.com/ibnusaja/ytmusic/main/data/adb/post-fs-data.d/music.sh > /data/adb/post-fs-data.d/music.sh && chmod 755 /data/adb/post-fs-data.d/music.sh
 
 mkdir /data/adb/Music && cp $pathVancedMusicDownload /data/adb/Music/base.apk && chmod 644 /data/adb/Music/base.apk &&  chown 1000:1000 /data/adb/Music/base.apk
-echo"
-
-"
+echo && echo && echo
 echo " DONE"
 echo ".      .      . Please reboot your devices"
